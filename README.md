@@ -30,7 +30,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 
 1. Projeyi bilgisayarınıza indirin veya klonlayın:
    ```bash
-   git clone [https://github.com/kullanici-adiniz/repository-isminiz.git](https://github.com/kullanici-adiniz/repository-isminiz.git)
+   git clone https://github.com/Babur48/portfoy-takip-sistemi-portfolio-analysis-system.git
 2.Derleme ve çalıştırma:
    Windows:
      gcc main.c -o portfoy_analiz.exe
