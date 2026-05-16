@@ -33,14 +33,12 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
    git clone https://github.com/Babur48/portfoy-takip-sistemi-portfolio-analysis-system.git
 2.Derleme ve çalıştırma:
    Windows:
-     gcc main.c -o portfoy_analiz.exe
+     gcc finans.c varlik.c -o portfoy_analiz.exe
      .\portfoy_analiz.exe
-   MacOS:
-     gcc main.c -o portfoy_analiz
-     ./portfoy_analiz
-   Linux:
-     gcc main.c -o portfoy_analiz
-     ./portfoy_analiz
+     
+   MacOS ve Linux:
+    gcc finans.c varlik.c -o portfoy_analiz
+    ./portfoy_analiz
 
 Bu proje; finansal varlıklarınızı (Hisse Senetleri, BIST/Yurt Dışı Piyasalar, Fonlar vb.) tek bir merkezden yönetmek, maliyet analizlerini yapmak ve yatırımlarınızın kâr/zarar durumunu takip etmek için geliştirilmiş bir **portföy yönetim aracıdır**. 
 
